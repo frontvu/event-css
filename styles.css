@@ -4,65 +4,19 @@ body,
 html {
   padding: 0;
   margin: 0;
-  background-color: #ff745c;
+  background-color: tomato;
 }
 a:link {
   text-decoration: none;
 }
-h2,
-h3 {
-  margin: 1em auto 0.3em;
-}
-h2 {
-  font-size: 60px;
-  text-transform: uppercase;
-  margin-top: 24px;
-  line-height: 1em;
-}
-h4 {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 17px;
-  margin-top: 24px;
-  font-weight: normal;
-  font-family: "Crimson Text", serif;
-  letter-spacing: 4px;
-}
-p {
-  font-family: "Crimson Text", serif;
-  font-size: 18px;
-}
-.site-title {
-  font-family: "Josefin Sans", sans-serif;
-  width: 300px;
+
+.center-content {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  text-align: center;
-  padding: 10px;
 }
-.site-title a {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.166667em;
-  font-weight: 700;
-  font-style: normal;
-  color: #ff745c;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  line-height: 1.2em;
-}
-.section-content {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-  padding: 100px 20px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-.featured-image .section-content {
-  padding: 200px 20px;
-}
+
 .featured-image {
   background-image: linear-gradient(
       rgba(28, 13, 10, 0.65),
@@ -86,6 +40,7 @@ p {
     ),
     url("https://picsum.photos/900?date");
 }
+
 .section-photo {
   position: relative;
   background-attachment: fixed;
@@ -93,18 +48,11 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 .section-photo .section-content {
   color: white;
 }
 
-a.round-btn {
-  background: white;
-  color: black;
-  display: inline-block;
-  padding: 20px 40px;
-  border-radius: 300px;
-  vertical-align: text-bottom;
-}
 .header-title {
   margin: 0;
 }
@@ -112,17 +60,17 @@ a.round-btn {
   background: white;
 }
 .white-section .section-content h3 {
-  color: #ff745c;
+  color: tomato;
 }
 .beige-section {
-  background: #faebe3;
+  background-color: linen;
 }
 .beige-section .section-content h2 {
-  color: rgba(28, 13, 10, 0.9);
+  color: #2f221f;
 }
 
 .beige-section .section-content h4 {
-  color: rgba(28, 13, 10, 0.8);
+  color: #483a36;
 }
 
 .btn {
@@ -178,7 +126,7 @@ a.round-btn {
 }
 
 .gallery h3 {
-  color: #ff745c;
+  color: tomato;
   text-align: center;
 }
 
